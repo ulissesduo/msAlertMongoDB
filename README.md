@@ -26,13 +26,13 @@ It is part of a larger **Environmental License System** 🏭📜, helping organi
 ## 📂 Project Structure  
 
 msAlertaMongoDB/
-├── Controllers/       # API endpoints (AlertaController.cs)
-├── DTO/               # Data Transfer Objects (Request & Response DTOs)
-├── Entity/            # Domain entities (Alerta.cs)
-├── Repository/        # Database persistence logic
-├── Service/           # Business logic layer
-├── Program.cs         # Entry point
-└── appsettings.json   # Configuration (MongoDB, logging, etc.)
+- **Controllers/**       # API endpoints (AlertaController.cs)
+- **DTO/**               # Data Transfer Objects (Request & Response DTOs)
+- **Entity/**            # Domain entities (Alerta.cs)
+- **Repository/**        # Database persistence logic
+- **Service/**           # Business logic layer
+- **Program.cs**         # Entry point
+- **appsettings.json**   # Configuration (MongoDB, logging, etc.)
 
 
 ## 🔄 DTOs  
