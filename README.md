@@ -25,7 +25,6 @@ It is part of a larger **Environmental License System** 🏭📜, helping organi
 
 ## 📂 Project Structure  
 
-```text
 msAlertaMongoDB/
 ├── Controllers/       # API endpoints (AlertaController.cs)
 ├── DTO/               # Data Transfer Objects (Request & Response DTOs)
