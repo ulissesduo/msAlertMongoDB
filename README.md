@@ -22,7 +22,6 @@ It is part of a larger **Environmental License System** 🏭📜, helping organi
 - 📑 **Swagger** — API documentation and testing.  
 
 ---
-```text
 ## 📂 Project Structure  
 
 msAlertaMongoDB/
