@@ -1,1 +1,1 @@
-dotnet run --project .\msAlertaMongoDB
+dotnet run .\msAlertaMongoDB
