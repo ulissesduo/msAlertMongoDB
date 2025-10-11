@@ -1,20 +1,29 @@
-# dotnet test .\AlertaMongoDBTest
-# dotnet run --project .\msAlertaMongoDB
-
 name: Pipeline
 on:
- push:
-  branches: ["main"]
+  push:
+    branches: ["main"]
+
 jobs:
   build:
-   name: Minha primeira pipeline test 
-   runs-on: ubuntu-latest
-   steps:     
+    name: Build and Test Pipeline
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
       - name: Setup .NET
-        uses: actions/setup-dotnet@v2
+        uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: 8.0.x
-      - name: Checkout do código
-        uses: actions/checkout@v2 
-      - name: Publicando a API githubactions
-        run: dotnet publish .\msAlertaMongoDB
+          dotnet-version: '8.0.x'
+
+      - name: Restore dependencies
+        run: dotnet restore ./msAlertaMongoDB/msAlertaMongoDB.csproj
+
+      - name: Build
+        run: dotnet build ./msAlertaMongoDB/msAlertaMongoDB.csproj --configuration Release --no-restore
+
+      - name: Run Tests
+        run: dotnet test ./AlertaMongoDBTest/AlertaMongoDBTest.csproj --no-build --verbosity normal
+
+      - name: Publish API
+        run: dotnet publish ./msAlertaMongoDB/msAlertaMongoDB.csproj -c Release -o ./publish
