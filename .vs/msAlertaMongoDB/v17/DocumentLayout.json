@@ -38,7 +38,8 @@
               "RelativeToolTip": "msAlertaMongoDB\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-11T20:17:42.83Z"
+              "WhenOpened": "2025-10-11T20:17:42.83Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -50,7 +51,8 @@
               "RelativeToolTip": "msAlertaMongoDB\\.gitignore",
               "ViewState": "AgIAAM4BAAAAAAAAAAAqwOgBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-10-11T20:15:51.716Z"
+              "WhenOpened": "2025-10-11T20:15:51.716Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -75,7 +77,8 @@
               "RelativeToolTip": "script.bat",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000614|",
-              "WhenOpened": "2025-10-11T19:43:27.383Z"
+              "WhenOpened": "2025-10-11T19:43:27.383Z",
+              "EditorCaption": ""
             }
           ]
         }

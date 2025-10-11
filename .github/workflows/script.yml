@@ -17,4 +17,4 @@ jobs:
       - name: Checkout do código
         uses: actions/checkout@v2 
       - name: Publicando a API githubactions
-        run: dotnet run .\msAlertaMongoDB
+        run: dotnet publish .\msAlertaMongoDB
