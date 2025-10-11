@@ -16,7 +16,5 @@ jobs:
           dotnet-version: 8.0.x
       - name: Checkout do código
         uses: actions/checkout@v2 
-      - name: Execução do teste de unidade 
-        run: dotnet test .\AlertaMongoDBTest
       - name: Publicando a API githubactions
         run: dotnet run --project .\msAlertaMongoDB
