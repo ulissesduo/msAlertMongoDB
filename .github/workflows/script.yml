@@ -16,5 +16,5 @@ jobs:
           dotnet-version: 8.0.x
       - name: Checkout do código
         uses: actions/checkout@v2 
-      - name: Publish API
+      - name: Publish API testes
         run: dotnet publish ./msAlertaMongoDB/msAlertaMongoDB.csproj -c Release -o ./publish
