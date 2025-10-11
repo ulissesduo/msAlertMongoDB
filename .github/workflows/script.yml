@@ -1,29 +1,37 @@
-name: Pipeline
+name: .NET CI/CD Pipeline
+
 on:
   push:
     branches: ["main"]
+  pull_request:
+    branches: ["main"]
 
 jobs:
-  build:
-    name: Build and Test Pipeline
+  build-and-test:
+    name: Build, Test, and Publish API
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v3
+      - name: ⚙️ Setup .NET SDK
+        uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.0.x'
+          dotnet-version: "8.0.x"
 
-      - name: Restore dependencies
-        run: dotnet restore ./msAlertaMongoDB/msAlertaMongoDB.csproj
+      - name: 📦 Restore dependencies
+        run: dotnet restore
 
-      - name: Build
-        run: dotnet build ./msAlertaMongoDB/msAlertaMongoDB.csproj --configuration Release --no-restore
+      - name: 🧪 Run unit tests
+        run: dotnet test ./AlertaMongoDBTest --no-build --verbosity normal
 
-      - name: Run Tests
-        run: dotnet test ./AlertaMongoDBTest/AlertaMongoDBTest.csproj --no-build --verbosity normal
+      - name: 🏗️ Build Web API
+        run: dotnet build ./msAlertaMongoDB --configuration Release --no-restore
 
-      - name: Publish API
-        run: dotnet publish ./msAlertaMongoDB/msAlertaMongoDB.csproj -c Release -o ./publish
+      - name: 🚀 Publish Web API
+        run: dotnet publish ./msAlertaMongoDB -c Release -o ./publish
+
+      # OPTIONAL: if you want to check output
+      - name: 📂 List published files
+        run: ls -R ./publish
