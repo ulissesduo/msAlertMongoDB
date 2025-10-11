@@ -1,37 +1,20 @@
-name: .NET CI/CD Pipeline
+# dotnet test .\AlertaMongoDBTest
+# dotnet run --project .\msAlertaMongoDB
 
+name: Pipeline
 on:
-  push:
-    branches: ["main"]
-  pull_request:
-    branches: ["main"]
-
+ push:
+  branches: ["main"]
 jobs:
-  build-and-test:
-    name: Build, Test, and Publish API
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: 📥 Checkout repository
-        uses: actions/checkout@v4
-
-      - name: ⚙️ Setup .NET SDK
-        uses: actions/setup-dotnet@v4
+  build:
+   name: Minha primeira pipeline test 
+   runs-on: ubuntu-latest
+   steps:     
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v2
         with:
-          dotnet-version: "8.0.x"
-
-      - name: 📦 Restore dependencies
-        run: dotnet restore
-
-      - name: 🧪 Run unit tests
-        run: dotnet test ./AlertaMongoDBTest --no-build --verbosity normal
-
-      - name: 🏗️ Build Web API
-        run: dotnet build ./msAlertaMongoDB --configuration Release --no-restore
-
-      - name: 🚀 Publish Web API
-        run: dotnet publish ./msAlertaMongoDB -c Release -o ./publish
-
-      # OPTIONAL: if you want to check output
-      - name: 📂 List published files
-        run: ls -R ./publish
+          dotnet-version: 8.0.x
+      - name: Checkout do código
+        uses: actions/checkout@v2 
+      - name: Publicando a API githubactions working correctly
+        run: dotnet publish \msAlertaMongoDB
