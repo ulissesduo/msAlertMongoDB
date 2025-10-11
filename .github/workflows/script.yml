@@ -18,5 +18,5 @@ jobs:
         uses: actions/checkout@v2 
       - name: Execução do teste de unidade 
         run: dotnet test .\AlertaMongoDBTest
-      - name: Publicando a API
+      - name: Publicando a API githubactions
         run: dotnet run --project .\msAlertaMongoDB
