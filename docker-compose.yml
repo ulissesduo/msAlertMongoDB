@@ -1,0 +1,6 @@
+services:
+  msalertamongodb:
+    image: ${DOCKER_REGISTRY-}msalertamongodb
+    build:
+      context: .
+      dockerfile: msAlertaMongoDB/Dockerfile

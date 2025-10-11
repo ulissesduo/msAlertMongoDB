@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("msAlertaMongoDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c2ac45feebc2a6dabc51e20225e3eb6dd0a7dbe")]
 [assembly: System.Reflection.AssemblyProductAttribute("msAlertaMongoDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("msAlertaMongoDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
