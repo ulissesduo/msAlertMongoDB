@@ -1,6 +1,32 @@
 services:
-  msalertamongodb:
-    image: ${DOCKER_REGISTRY-}msalertamongodb
+  # MongoDB service
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: admin123
+    volumes:
+      - mongo_data:/data/db
+
+  # ASP.NET API service
+  alertaapi:
     build:
-      context: .
-      dockerfile: msAlertaMongoDB/Dockerfile
+      context: ./AlertaMongoDB   # must point to the folder with your Dockerfile
+      dockerfile: Dockerfile
+    container_name: alertaapi
+    ports:
+      - "8080:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__MongoDb: mongodb://admin:admin123@mongodb:27017
+      DatabaseName: AlertaDB
+    depends_on:
+      - mongodb
+
+volumes:
+  mongo_data:
