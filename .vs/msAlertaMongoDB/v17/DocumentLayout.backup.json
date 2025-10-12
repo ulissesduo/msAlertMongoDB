@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\.github\\workflows\\script.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\workflows\\script.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\ulisses\\source\\repos\\msalertamongodb\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|Itens da Solu\u00E7\u00E3o{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\script.bat||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|Itens da Solu\u00E7\u00E3o{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|solutionrelative:script.bat||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{78BC3E4B-B1BB-478E-A015-D7865233ACE9}|msAlertaMongoDB\\msAlertaMongoDB.csproj|c:\\users\\ulisses\\source\\repos\\msalertamongodb\\msalertamongodb\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{78BC3E4B-B1BB-478E-A015-D7865233ACE9}|msAlertaMongoDB\\msAlertaMongoDB.csproj|solutionrelative:msalertamongodb\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78BC3E4B-B1BB-478E-A015-D7865233ACE9}|msAlertaMongoDB\\msAlertaMongoDB.csproj|c:\\users\\ulisses\\source\\repos\\msalertamongodb\\msalertamongodb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{78BC3E4B-B1BB-478E-A015-D7865233ACE9}|msAlertaMongoDB\\msAlertaMongoDB.csproj|solutionrelative:msalertamongodb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78BC3E4B-B1BB-478E-A015-D7865233ACE9}|msAlertaMongoDB\\msAlertaMongoDB.csproj|c:\\users\\ulisses\\source\\repos\\msalertamongodb\\msalertamongodb\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{78BC3E4B-B1BB-478E-A015-D7865233ACE9}|msAlertaMongoDB\\msAlertaMongoDB.csproj|solutionrelative:msalertamongodb\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\ulisses\\source\\repos\\msalertamongodb\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78BC3E4B-B1BB-478E-A015-D7865233ACE9}|msAlertaMongoDB\\msAlertaMongoDB.csproj|c:\\users\\ulisses\\source\\repos\\msalertamongodb\\msalertamongodb\\service\\alertaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78BC3E4B-B1BB-478E-A015-D7865233ACE9}|msAlertaMongoDB\\msAlertaMongoDB.csproj|solutionrelative:msalertamongodb\\service\\alertaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\.github\\workflows\\script.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\workflows\\script.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21524468-7FD9-41FD-BEC5-31C6AF8655D4}|AlertaMongoDBTest\\AlertaMongoDBTest.csproj|c:\\users\\ulisses\\source\\repos\\msalertamongodb\\alertamongodbtest\\alertamongodbtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{21524468-7FD9-41FD-BEC5-31C6AF8655D4}|AlertaMongoDBTest\\AlertaMongoDBTest.csproj|solutionrelative:alertamongodbtest\\alertamongodbtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|Itens da Solu\u00E7\u00E3o{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\script.bat||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|Itens da Solu\u00E7\u00E3o{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|solutionrelative:script.bat||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,36 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AlertaService.cs",
-              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\msAlertaMongoDB\\Service\\AlertaService.cs",
-              "RelativeDocumentMoniker": "msAlertaMongoDB\\Service\\AlertaService.cs",
-              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\msAlertaMongoDB\\Service\\AlertaService.cs",
-              "RelativeToolTip": "msAlertaMongoDB\\Service\\AlertaService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T23:43:10.97Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AlertaMongoDBTest.csproj",
-              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\AlertaMongoDBTest\\AlertaMongoDBTest.csproj",
-              "RelativeDocumentMoniker": "AlertaMongoDBTest\\AlertaMongoDBTest.csproj",
-              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\AlertaMongoDBTest\\AlertaMongoDBTest.csproj",
-              "RelativeToolTip": "AlertaMongoDBTest\\AlertaMongoDBTest.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-11T23:13:19.923Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -72,38 +44,70 @@
               "RelativeDocumentMoniker": "msAlertaMongoDB\\appsettings.json",
               "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\msAlertaMongoDB\\appsettings.json",
               "RelativeToolTip": "msAlertaMongoDB\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-11T20:17:42.83Z"
+              "WhenOpened": "2025-10-12T23:11:12.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\msAlertaMongoDB\\.gitignore",
-              "RelativeDocumentMoniker": "msAlertaMongoDB\\.gitignore",
-              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\msAlertaMongoDB\\.gitignore",
-              "RelativeToolTip": "msAlertaMongoDB\\.gitignore",
-              "ViewState": "AgIAAHwBAAAAAAAAAAAlwIUBAAAYAAAAAAAAAA==",
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-10-12T22:51:31.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\msAlertaMongoDB\\Dockerfile",
+              "RelativeDocumentMoniker": "msAlertaMongoDB\\Dockerfile",
+              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\msAlertaMongoDB\\Dockerfile",
+              "RelativeToolTip": "msAlertaMongoDB\\Dockerfile",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-10-11T20:15:51.716Z"
+              "WhenOpened": "2025-10-12T13:39:06.075Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-10-12T13:28:32.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "script.yml",
               "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\.github\\workflows\\script.yml",
               "RelativeDocumentMoniker": ".github\\workflows\\script.yml",
               "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\.github\\workflows\\script.yml",
               "RelativeToolTip": ".github\\workflows\\script.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAApwA8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2025-10-11T20:03:28.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "script.bat",
               "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\script.bat",
               "RelativeDocumentMoniker": "script.bat",

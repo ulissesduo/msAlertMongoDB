@@ -13,9 +13,9 @@ services:
       - mongo_data:/data/db
 
   # ASP.NET API service
-  alertaapi:
+  msalertamongodb:
     build:
-      context: ./AlertaMongoDB   # must point to the folder with your Dockerfile
+      context: ./msAlertaMongoDB   # must point to the folder with your Dockerfile
       dockerfile: Dockerfile
     container_name: alertaapi
     ports:
@@ -24,7 +24,7 @@ services:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: http://+:8080
       ConnectionStrings__MongoDb: mongodb://admin:admin123@mongodb:27017
-      DatabaseName: AlertaDB
+      DatabaseName: alerta
     depends_on:
       - mongodb
 
