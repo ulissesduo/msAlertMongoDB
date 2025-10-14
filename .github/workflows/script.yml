@@ -1,22 +1,95 @@
 # dotnet test .\AlertaMongoDBTest
 # dotnet run --project .\msAlertaMongoDB
 
-name: Pipeline
+# name: Pipeline
+# on:
+#  push:
+#   branches: ["main"]
+# jobs:
+#   build:
+#    name: Minha primeira pipeline test 
+#    runs-on: ubuntu-latest
+#    steps:     
+#       - name: Setup .NETa
+#         uses: actions/setup-dotnet@v2
+#         with:
+#           dotnet-version: 8.0.x
+#       - name: Checkout do código
+#         uses: actions/checkout@v2
+#       - name: Execução do teste de unidade 
+#         run: dotnet test ./AlertaMongoDBTest/AlertaMongoDBTest.csproj --no-build --verbosity normal
+#       - name: Publish API testes funcionass
+#         run: dotnet publish ./msAlertaMongoDB/msAlertaMongoDB.csproj -c Release -o ./publish
+
+
+
+
+
+
+name: Pipeline - msAlertaMongoDB
+
 on:
- push:
-  branches: ["main"]
+  push:
+    branches:
+      - main
+
+env:
+  AZURE_WEBAPP_NAME: alertaapiapp           # Nome do seu App Service no Azure
+  AZURE_RESOURCE_GROUP: myresourcegroup     # Nome do grupo de recursos
+  AZURE_CONTAINER_REGISTRY: alertaregistryname.azurecr.io
+  IMAGE_NAME: alertaapi
+  DOCKERFILE_PATH: ./msAlertaMongoDB/Dockerfile
+
 jobs:
-  build:
-   name: Minha primeira pipeline test 
-   runs-on: ubuntu-latest
-   steps:     
-      - name: Setup .NET
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Checkout do código-fonte
+      - name: 📦 Checkout do código
+        uses: actions/checkout@v3
+
+      # 2️⃣ Configuração do .NET
+      - name: ⚙️ Setup .NET 8
         uses: actions/setup-dotnet@v2
         with:
           dotnet-version: 8.0.x
-      - name: Checkout do código
-        uses: actions/checkout@v2
-      - name: Execução do teste de unidade 
-        run: dotnet test ./AlertaMongoDBTest/AlertaMongoDBTest.csproj --no-build --verbosity normal
-      - name: Publish API testes funcionass
+
+      # 3️⃣ Restaura dependências e roda testes unitários
+      - name: 🧪 Executar testes unitários
+        run: |
+          dotnet restore ./msAlertaMongoDB/msAlertaMongoDB.csproj
+          dotnet test ./AlertaMongoDBTest/AlertaMongoDBTest.csproj --no-build --verbosity normal
+
+      # 4️⃣ Publica o projeto (gera a pasta publish)
+      - name: 🚀 Publicar build
         run: dotnet publish ./msAlertaMongoDB/msAlertaMongoDB.csproj -c Release -o ./publish
+
+      # 5️⃣ Login no Azure Container Registry (ACR)
+      - name: 🔐 Login no Azure Container Registry
+        uses: azure/docker-login@v2
+        with:
+          login-server: ${{ env.AZURE_CONTAINER_REGISTRY }}
+          username: ${{ secrets.AZURE_ACR_USERNAME }}
+          password: ${{ secrets.AZURE_ACR_PASSWORD }}
+
+      # 6️⃣ Build e push da imagem Docker para o ACR
+      - name: 🐳 Build e push da imagem Docker
+        run: |
+          docker build -f ${{ env.DOCKERFILE_PATH }} -t ${{ env.IMAGE_NAME }}:latest ./msAlertaMongoDB
+          docker tag ${{ env.IMAGE_NAME }}:latest ${{ env.AZURE_CONTAINER_REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+          docker push ${{ env.AZURE_CONTAINER_REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+
+      # 7️⃣ Login no Azure (usando service principal)
+      - name: 🔐 Login no Azure
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      # 8️⃣ Deploy no Azure Web App
+      - name: ☁️ Deploy no Azure Web App (Produção)
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: ${{ env.AZURE_WEBAPP_NAME }}
+          images: ${{ env.AZURE_CONTAINER_REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+          slot-name: production

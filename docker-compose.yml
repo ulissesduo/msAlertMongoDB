@@ -15,7 +15,7 @@ services:
   # ASP.NET API service
   msalertamongodb:
     build:
-      context: ./msAlertaMongoDB   # must point to the folder with your Dockerfile
+      context: ./msAlertaMongoDB   
       dockerfile: Dockerfile
     container_name: alertaapi
     ports:
