@@ -34,12 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -50,8 +46,7 @@
               "RelativeToolTip": "msAlertaMongoDB\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-12T23:11:12.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T23:11:12.158Z"
             },
             {
               "$type": "Document",
@@ -63,8 +58,7 @@
               "RelativeToolTip": "docker-compose.override.yml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-10-12T22:51:31.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T22:51:31.368Z"
             },
             {
               "$type": "Document",
@@ -76,8 +70,7 @@
               "RelativeToolTip": "msAlertaMongoDB\\Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-10-12T13:39:06.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T13:39:06.075Z"
             },
             {
               "$type": "Document",
@@ -89,8 +82,7 @@
               "RelativeToolTip": "docker-compose.yml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-10-12T13:28:32.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T13:28:32.27Z"
             },
             {
               "$type": "Document",
@@ -115,8 +107,7 @@
               "RelativeToolTip": "script.bat",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000614|",
-              "WhenOpened": "2025-10-11T19:43:27.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-11T19:43:27.383Z"
             }
           ]
         }

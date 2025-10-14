@@ -34,8 +34,8 @@ on:
       - main
 
 env:
-  AZURE_WEBAPP_NAME: alertaapiapp           # Nome do seu App Service no Azure
-  AZURE_RESOURCE_GROUP: myresourcegroup     # Nome do grupo de recursos
+  AZURE_WEBAPP_NAME: alertaapiapp           
+  AZURE_RESOURCE_GROUP: myresourcegroup     
   AZURE_CONTAINER_REGISTRY: alertaregistryname.azurecr.io
   IMAGE_NAME: alertaapi
   DOCKERFILE_PATH: ./msAlertaMongoDB/Dockerfile
