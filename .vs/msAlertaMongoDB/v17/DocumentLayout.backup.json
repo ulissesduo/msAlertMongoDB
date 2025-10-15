@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\workflows\\script.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\ulisses\\source\\repos\\msalertamongodb\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|Itens da Solu\u00E7\u00E3o{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\script.bat||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|Itens da Solu\u00E7\u00E3o{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|solutionrelative:script.bat||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78BC3E4B-B1BB-478E-A015-D7865233ACE9}|msAlertaMongoDB\\msAlertaMongoDB.csproj|c:\\users\\ulisses\\source\\repos\\msalertamongodb\\msalertamongodb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{78BC3E4B-B1BB-478E-A015-D7865233ACE9}|msAlertaMongoDB\\msAlertaMongoDB.csproj|solutionrelative:msalertamongodb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\ulisses\\source\\repos\\msalertamongodb\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78BC3E4B-B1BB-478E-A015-D7865233ACE9}|msAlertaMongoDB\\msAlertaMongoDB.csproj|c:\\users\\ulisses\\source\\repos\\msalertamongodb\\msalertamongodb\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -38,7 +38,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\msAlertaMongoDB\\appsettings.json",
               "RelativeDocumentMoniker": "msAlertaMongoDB\\appsettings.json",
@@ -74,15 +74,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
               "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\docker-compose.yml",
               "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwBcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-10-12T13:28:32.27Z"
+              "WhenOpened": "2025-10-12T13:28:32.27Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -92,14 +93,14 @@
               "RelativeDocumentMoniker": ".github\\workflows\\script.yml",
               "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\.github\\workflows\\script.yml",
               "RelativeToolTip": ".github\\workflows\\script.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2025-10-11T20:03:28.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "script.bat",
               "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\script.bat",
               "RelativeDocumentMoniker": "script.bat",
