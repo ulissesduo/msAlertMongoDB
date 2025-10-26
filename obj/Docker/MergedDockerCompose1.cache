@@ -1,9 +1,28 @@
 name: dockercompose14460617366069251377
 services:
+  mongodb:
+    container_name: mongodb
+    environment:
+      MONGO_INITDB_ROOT_PASSWORD: admin123
+      MONGO_INITDB_ROOT_USERNAME: admin
+    image: mongo
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 27017
+        published: "27017"
+        protocol: tcp
+    restart: always
+    volumes:
+      - type: volume
+        source: mongo_data
+        target: /data/db
+        volume: {}
   msalertamongodb:
     build:
-      context: C:\Users\Ulisses\source\repos\msAlertaMongoDB
-      dockerfile: msAlertaMongoDB/Dockerfile
+      context: C:\Users\Ulisses\source\repos\msAlertaMongoDB\msAlertaMongoDB
+      dockerfile: Dockerfile
       args:
         BUILD_CONFIGURATION: Debug
         LAUNCHING_FROM_VS: "true"
@@ -11,6 +30,11 @@ services:
         com.microsoft.created-by: visual-studio
         com.microsoft.visual-studio.project-name: msAlertaMongoDB
       target: base
+    container_name: alertaapi
+    depends_on:
+      mongodb:
+        condition: service_started
+        required: true
     entrypoint:
       - dotnet
       - --roll-forward
@@ -22,7 +46,10 @@ services:
       ASPNETCORE_HTTP_PORTS: "8080"
       ASPNETCORE_HTTPS_PORTS: "8081"
       ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__MongoDb: mongodb+srv://duoulisses:1234@cluster0.kzl4ulf.mongodb.net/
       DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      DatabaseName: alerta
       NUGET_FALLBACK_PACKAGES: /.nuget/fallbackpackages
     image: msalertamongodb:dev
     labels:
@@ -33,6 +60,10 @@ services:
     networks:
       default: null
     ports:
+      - mode: ingress
+        target: 8080
+        published: "8080"
+        protocol: tcp
       - mode: ingress
         target: 8080
         protocol: tcp
@@ -71,7 +102,7 @@ services:
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\Ulisses\source\repos\msAlertaMongoDB
+        source: C:\Users\Ulisses\source\repos\msAlertaMongoDB\msAlertaMongoDB
         target: /src
         bind:
           create_host_path: true
@@ -107,3 +138,6 @@ services:
 networks:
   default:
     name: dockercompose14460617366069251377_default
+volumes:
+  mongo_data:
+    name: dockercompose14460617366069251377_mongo_data

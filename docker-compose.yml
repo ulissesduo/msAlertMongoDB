@@ -23,7 +23,8 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: http://+:8080
-      ConnectionStrings__MongoDb: mongodb://admin:admin123@mongodb:27017
+      # ConnectionStrings__MongoDb: mongodb://admin:admin123@mongodb:27017
+      ConnectionStrings__MongoDb: mongodb+srv://duoulisses:1234@cluster0.kzl4ulf.mongodb.net/
       DatabaseName: alerta
     depends_on:
       - mongodb

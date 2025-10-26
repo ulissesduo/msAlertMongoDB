@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\.github\\workflows\\script.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\workflows\\script.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{5FF192BD-423D-4BDA-A51B-E2DD6A08B26E}|AlertaTestReqnroll\\AlertaTestReqnroll.csproj|c:\\users\\ulisses\\source\\repos\\msalertamongodb\\alertatestreqnroll\\stepdefinitions\\alertateststepdefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF192BD-423D-4BDA-A51B-E2DD6A08B26E}|AlertaTestReqnroll\\AlertaTestReqnroll.csproj|solutionrelative:alertatestreqnroll\\stepdefinitions\\alertateststepdefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF192BD-423D-4BDA-A51B-E2DD6A08B26E}|AlertaTestReqnroll\\AlertaTestReqnroll.csproj|c:\\users\\ulisses\\source\\repos\\msalertamongodb\\alertatestreqnroll\\stepdefinitions\\alertagetbyidstepdefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF192BD-423D-4BDA-A51B-E2DD6A08B26E}|AlertaTestReqnroll\\AlertaTestReqnroll.csproj|solutionrelative:alertatestreqnroll\\stepdefinitions\\alertagetbyidstepdefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF192BD-423D-4BDA-A51B-E2DD6A08B26E}|AlertaTestReqnroll\\AlertaTestReqnroll.csproj|c:\\users\\ulisses\\source\\repos\\msalertamongodb\\alertatestreqnroll\\stepdefinitions\\alertadeletestepdefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF192BD-423D-4BDA-A51B-E2DD6A08B26E}|AlertaTestReqnroll\\AlertaTestReqnroll.csproj|solutionrelative:alertatestreqnroll\\stepdefinitions\\alertadeletestepdefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF192BD-423D-4BDA-A51B-E2DD6A08B26E}|AlertaTestReqnroll\\AlertaTestReqnroll.csproj|c:\\users\\ulisses\\source\\repos\\msalertamongodb\\alertatestreqnroll\\features\\alerta_delete.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5FF192BD-423D-4BDA-A51B-E2DD6A08B26E}|AlertaTestReqnroll\\AlertaTestReqnroll.csproj|solutionrelative:alertatestreqnroll\\features\\alerta_delete.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF192BD-423D-4BDA-A51B-E2DD6A08B26E}|AlertaTestReqnroll\\AlertaTestReqnroll.csproj|c:\\users\\ulisses\\source\\repos\\msalertamongodb\\alertatestreqnroll\\features\\alerta_get_by_id.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5FF192BD-423D-4BDA-A51B-E2DD6A08B26E}|AlertaTestReqnroll\\AlertaTestReqnroll.csproj|solutionrelative:alertatestreqnroll\\features\\alerta_get_by_id.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF192BD-423D-4BDA-A51B-E2DD6A08B26E}|AlertaTestReqnroll\\AlertaTestReqnroll.csproj|c:\\users\\ulisses\\source\\repos\\msalertamongodb\\alertatestreqnroll\\features\\alertatest.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5FF192BD-423D-4BDA-A51B-E2DD6A08B26E}|AlertaTestReqnroll\\AlertaTestReqnroll.csproj|solutionrelative:alertatestreqnroll\\features\\alertatest.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BC3E4B-B1BB-478E-A015-D7865233ACE9}|msAlertaMongoDB\\msAlertaMongoDB.csproj|c:\\users\\ulisses\\source\\repos\\msalertamongodb\\msalertamongodb\\controllers\\alertacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BC3E4B-B1BB-478E-A015-D7865233ACE9}|msAlertaMongoDB\\msAlertaMongoDB.csproj|solutionrelative:msalertamongodb\\controllers\\alertacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\ulisses\\source\\repos\\msalertamongodb\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|Itens da Solu\u00E7\u00E3o{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\script.bat||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|Itens da Solu\u00E7\u00E3o{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|solutionrelative:script.bat||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78BC3E4B-B1BB-478E-A015-D7865233ACE9}|msAlertaMongoDB\\msAlertaMongoDB.csproj|c:\\users\\ulisses\\source\\repos\\msalertamongodb\\msalertamongodb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{78BC3E4B-B1BB-478E-A015-D7865233ACE9}|msAlertaMongoDB\\msAlertaMongoDB.csproj|solutionrelative:msalertamongodb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78BC3E4B-B1BB-478E-A015-D7865233ACE9}|msAlertaMongoDB\\msAlertaMongoDB.csproj|c:\\users\\ulisses\\source\\repos\\msalertamongodb\\msalertamongodb\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{78BC3E4B-B1BB-478E-A015-D7865233ACE9}|msAlertaMongoDB\\msAlertaMongoDB.csproj|solutionrelative:msalertamongodb\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\ulisses\\source\\repos\\msalertamongodb\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,81 +42,114 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\msAlertaMongoDB\\appsettings.json",
-              "RelativeDocumentMoniker": "msAlertaMongoDB\\appsettings.json",
-              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\msAlertaMongoDB\\appsettings.json",
-              "RelativeToolTip": "msAlertaMongoDB\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-12T23:11:12.158Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "docker-compose.override.yml",
-              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\docker-compose.override.yml",
-              "RelativeDocumentMoniker": "docker-compose.override.yml",
-              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\docker-compose.override.yml",
-              "RelativeToolTip": "docker-compose.override.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-10-12T22:51:31.368Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\msAlertaMongoDB\\Dockerfile",
-              "RelativeDocumentMoniker": "msAlertaMongoDB\\Dockerfile",
-              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\msAlertaMongoDB\\Dockerfile",
-              "RelativeToolTip": "msAlertaMongoDB\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-10-12T13:39:06.075Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAgwBcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-10-12T13:28:32.27Z",
+              "Title": "AlertaGetByIdStepDefinition.cs",
+              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\AlertaTestReqnroll\\StepDefinitions\\AlertaGetByIdStepDefinition.cs",
+              "RelativeDocumentMoniker": "AlertaTestReqnroll\\StepDefinitions\\AlertaGetByIdStepDefinition.cs",
+              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\AlertaTestReqnroll\\StepDefinitions\\AlertaGetByIdStepDefinition.cs",
+              "RelativeToolTip": "AlertaTestReqnroll\\StepDefinitions\\AlertaGetByIdStepDefinition.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T22:00:11.084Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "script.yml",
-              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\.github\\workflows\\script.yml",
-              "RelativeDocumentMoniker": ".github\\workflows\\script.yml",
-              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\.github\\workflows\\script.yml",
-              "RelativeToolTip": ".github\\workflows\\script.yml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-10-11T20:03:28.505Z",
+              "DocumentIndex": 4,
+              "Title": "Alerta_Get_By_Id.feature",
+              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\AlertaTestReqnroll\\Features\\Alerta_Get_By_Id.feature",
+              "RelativeDocumentMoniker": "AlertaTestReqnroll\\Features\\Alerta_Get_By_Id.feature",
+              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\AlertaTestReqnroll\\Features\\Alerta_Get_By_Id.feature",
+              "RelativeToolTip": "AlertaTestReqnroll\\Features\\Alerta_Get_By_Id.feature",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABLAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPtSURBVDhPdZTLb1RVHMc/59x75965M3Q6M31RYaBprVAgGDFUEQiIgroBV0JcmLjwsZIYXbnWP8CNe6NREiWEkJBAIo9EUwpINaANIW3pAzptmemUuXfmPo8LZvpK/K5Ozvn9Pud7zu\u002BXn\u002BD/9FU2yc7ERqAAdAAxMItiirt\u002BkW/K9fUpKKXEmo23gS9kiuHMfjr0Y9hydwNmNiLqKB5Ti\u002B8wEV7gu8ptFuLaaoS2vHrFlByze\u002Bg1j6OZH6DLAwLxghRyo0LlQeQ0obUJIbqUQYGs7KNV\u002BuxIlLBklelwHfBNu4s99hEqxococTCl27mBln6jJ71FVAOXjXYnu1sHhKWZiQWvlEOKXgpGmj7jMUtxkRHfWwG2ScFL5kEKxingiERqXVYHJwsnONy5j0l3hsH8Ht4rHEcpuFX\u002BC0ACW4EKs\u002BE0E\u002BEjHIUE4NOMzaB1CDgskKJFTxOoEEtLssUusCszwL62l9mgpwnVs6c1ZABH2W/t57MMADoAphhAFz2WtNLPb\u002BgRn2/7hBl3lofONL/P3\u002BBhbYYJd5JYKcaqD5uwZkE3gehDkAeePHMIvUB7RKQFKkAg6E52Ug4qDJfvMFad4GZphKEnt5lyZ5rAppIoOojZROMfAHKAHcQh816J4YU/KdbnqYYO1dDBCV3K/iJB7NNm5uhL99CWyKOJ5ZqmgLbVQAAEAhAEKmQxqOAEDrGKkQgkkqzZymvtezm15V0OtA9ia8lmqmx\u002BXxM4Bzi2nmRHpp/T/R/xRudBtqYLZPQMGaOFvJnFEhabk92803WE0/0fkzOzTWANKLPcNq8nJTltj1Jqey3yRLE\u002Bx7W5ITbbz3Go/VUSusne/IscaB/kaehw4dElhksj3K2M4sd\u002BCGqIcnyW32rOM4fXapOMB/\u002BEKpye8xY4P3OJ4dIdbD3JQGs/hjRIaSl2ZbYjkVyZ\u002B4PLs1dxQhdgmrHgAddqpRWHY6FHQbfoNfIK1VOP60ZCGqI72YUbu1yfG6ISLJHWU4y7k9yt/Es9ritQIair3PQv8qtzn1W9BO\u002BnWzhqv4UhvkSwA0hY0hKalMIJXQSShJYgVhFBHKjG9Cnix19zqfYLP1bnVxwCTIYBTjzLLvNeo0lbIxXZQRw2CqeIVUSkIhqwCvAtZ6oXuVybwVNqLdBTisWoTjleYJs5jsaDRuUMoH05DjzgPr76gTPVs9yoj1OK/ebhChDAUYpi6KGLKcaDCSRLZLUssBNwgSlgiCfRea7XznLZfUBJeasRa4E07v/bV4z4VTr0OtsS6cZUGQV1hXL8M7f8c3z/9BEe0fr0tRN7vU5uyHAitRnoBkYRUZFzrsdPzvrIZf0HlF2bQabSBKQAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-10-25T22:09:50.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "script.bat",
-              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\script.bat",
-              "RelativeDocumentMoniker": "script.bat",
-              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\script.bat",
-              "RelativeToolTip": "script.bat",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000614|",
-              "WhenOpened": "2025-10-11T19:43:27.383Z"
+              "Title": "AlertaDeleteStepDefinition.cs",
+              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\AlertaTestReqnroll\\StepDefinitions\\AlertaDeleteStepDefinition.cs",
+              "RelativeDocumentMoniker": "AlertaTestReqnroll\\StepDefinitions\\AlertaDeleteStepDefinition.cs",
+              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\AlertaTestReqnroll\\StepDefinitions\\AlertaDeleteStepDefinition.cs",
+              "RelativeToolTip": "AlertaTestReqnroll\\StepDefinitions\\AlertaDeleteStepDefinition.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T21:27:33.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Alerta_Delete.feature",
+              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\AlertaTestReqnroll\\Features\\Alerta_Delete.feature",
+              "RelativeDocumentMoniker": "AlertaTestReqnroll\\Features\\Alerta_Delete.feature",
+              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\AlertaTestReqnroll\\Features\\Alerta_Delete.feature",
+              "RelativeToolTip": "AlertaTestReqnroll\\Features\\Alerta_Delete.feature",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPtSURBVDhPdZTLb1RVHMc/59x75965M3Q6M31RYaBprVAgGDFUEQiIgroBV0JcmLjwsZIYXbnWP8CNe6NREiWEkJBAIo9EUwpINaANIW3pAzptmemUuXfmPo8LZvpK/K5Ozvn9Pud7zu\u002BXn\u002BD/9FU2yc7ERqAAdAAxMItiirt\u002BkW/K9fUpKKXEmo23gS9kiuHMfjr0Y9hydwNmNiLqKB5Ti\u002B8wEV7gu8ptFuLaaoS2vHrFlByze\u002Bg1j6OZH6DLAwLxghRyo0LlQeQ0obUJIbqUQYGs7KNV\u002BuxIlLBklelwHfBNu4s99hEqxococTCl27mBln6jJ71FVAOXjXYnu1sHhKWZiQWvlEOKXgpGmj7jMUtxkRHfWwG2ScFL5kEKxingiERqXVYHJwsnONy5j0l3hsH8Ht4rHEcpuFX\u002BC0ACW4EKs\u002BE0E\u002BEjHIUE4NOMzaB1CDgskKJFTxOoEEtLssUusCszwL62l9mgpwnVs6c1ZABH2W/t57MMADoAphhAFz2WtNLPb\u002BgRn2/7hBl3lofONL/P3\u002BBhbYYJd5JYKcaqD5uwZkE3gehDkAeePHMIvUB7RKQFKkAg6E52Ug4qDJfvMFad4GZphKEnt5lyZ5rAppIoOojZROMfAHKAHcQh816J4YU/KdbnqYYO1dDBCV3K/iJB7NNm5uhL99CWyKOJ5ZqmgLbVQAAEAhAEKmQxqOAEDrGKkQgkkqzZymvtezm15V0OtA9ia8lmqmx\u002BXxM4Bzi2nmRHpp/T/R/xRudBtqYLZPQMGaOFvJnFEhabk92803WE0/0fkzOzTWANKLPcNq8nJTltj1Jqey3yRLE\u002Bx7W5ITbbz3Go/VUSusne/IscaB/kaehw4dElhksj3K2M4sd\u002BCGqIcnyW32rOM4fXapOMB/\u002BEKpye8xY4P3OJ4dIdbD3JQGs/hjRIaSl2ZbYjkVyZ\u002B4PLs1dxQhdgmrHgAddqpRWHY6FHQbfoNfIK1VOP60ZCGqI72YUbu1yfG6ISLJHWU4y7k9yt/Es9ritQIair3PQv8qtzn1W9BO\u002BnWzhqv4UhvkSwA0hY0hKalMIJXQSShJYgVhFBHKjG9Cnix19zqfYLP1bnVxwCTIYBTjzLLvNeo0lbIxXZQRw2CqeIVUSkIhqwCvAtZ6oXuVybwVNqLdBTisWoTjleYJs5jsaDRuUMoH05DjzgPr76gTPVs9yoj1OK/ebhChDAUYpi6KGLKcaDCSRLZLUssBNwgSlgiCfRea7XznLZfUBJeasRa4E07v/bV4z4VTr0OtsS6cZUGQV1hXL8M7f8c3z/9BEe0fr0tRN7vU5uyHAitRnoBkYRUZFzrsdPzvrIZf0HlF2bQabSBKQAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-10-25T21:21:42.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AlertaTest.feature",
+              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\AlertaTestReqnroll\\Features\\AlertaTest.feature",
+              "RelativeDocumentMoniker": "AlertaTestReqnroll\\Features\\AlertaTest.feature",
+              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\AlertaTestReqnroll\\Features\\AlertaTest.feature",
+              "RelativeToolTip": "AlertaTestReqnroll\\Features\\AlertaTest.feature",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPtSURBVDhPdZTLb1RVHMc/59x75965M3Q6M31RYaBprVAgGDFUEQiIgroBV0JcmLjwsZIYXbnWP8CNe6NREiWEkJBAIo9EUwpINaANIW3pAzptmemUuXfmPo8LZvpK/K5Ozvn9Pud7zu\u002BXn\u002BD/9FU2yc7ERqAAdAAxMItiirt\u002BkW/K9fUpKKXEmo23gS9kiuHMfjr0Y9hydwNmNiLqKB5Ti\u002B8wEV7gu8ptFuLaaoS2vHrFlByze\u002Bg1j6OZH6DLAwLxghRyo0LlQeQ0obUJIbqUQYGs7KNV\u002BuxIlLBklelwHfBNu4s99hEqxococTCl27mBln6jJ71FVAOXjXYnu1sHhKWZiQWvlEOKXgpGmj7jMUtxkRHfWwG2ScFL5kEKxingiERqXVYHJwsnONy5j0l3hsH8Ht4rHEcpuFX\u002BC0ACW4EKs\u002BE0E\u002BEjHIUE4NOMzaB1CDgskKJFTxOoEEtLssUusCszwL62l9mgpwnVs6c1ZABH2W/t57MMADoAphhAFz2WtNLPb\u002BgRn2/7hBl3lofONL/P3\u002BBhbYYJd5JYKcaqD5uwZkE3gehDkAeePHMIvUB7RKQFKkAg6E52Ug4qDJfvMFad4GZphKEnt5lyZ5rAppIoOojZROMfAHKAHcQh816J4YU/KdbnqYYO1dDBCV3K/iJB7NNm5uhL99CWyKOJ5ZqmgLbVQAAEAhAEKmQxqOAEDrGKkQgkkqzZymvtezm15V0OtA9ia8lmqmx\u002BXxM4Bzi2nmRHpp/T/R/xRudBtqYLZPQMGaOFvJnFEhabk92803WE0/0fkzOzTWANKLPcNq8nJTltj1Jqey3yRLE\u002Bx7W5ITbbz3Go/VUSusne/IscaB/kaehw4dElhksj3K2M4sd\u002BCGqIcnyW32rOM4fXapOMB/\u002BEKpye8xY4P3OJ4dIdbD3JQGs/hjRIaSl2ZbYjkVyZ\u002B4PLs1dxQhdgmrHgAddqpRWHY6FHQbfoNfIK1VOP60ZCGqI72YUbu1yfG6ISLJHWU4y7k9yt/Es9ritQIair3PQv8qtzn1W9BO\u002BnWzhqv4UhvkSwA0hY0hKalMIJXQSShJYgVhFBHKjG9Cnix19zqfYLP1bnVxwCTIYBTjzLLvNeo0lbIxXZQRw2CqeIVUSkIhqwCvAtZ6oXuVybwVNqLdBTisWoTjleYJs5jsaDRuUMoH05DjzgPr76gTPVs9yoj1OK/ebhChDAUYpi6KGLKcaDCSRLZLUssBNwgSlgiCfRea7XznLZfUBJeasRa4E07v/bV4z4VTr0OtsS6cZUGQV1hXL8M7f8c3z/9BEe0fr0tRN7vU5uyHAitRnoBkYRUZFzrsdPzvrIZf0HlF2bQabSBKQAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-10-25T17:34:13.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlertaTestStepDefinition.cs",
+              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\AlertaTestReqnroll\\StepDefinitions\\AlertaTestStepDefinition.cs",
+              "RelativeDocumentMoniker": "AlertaTestReqnroll\\StepDefinitions\\AlertaTestStepDefinition.cs",
+              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\AlertaTestReqnroll\\StepDefinitions\\AlertaTestStepDefinition.cs",
+              "RelativeToolTip": "AlertaTestReqnroll\\StepDefinitions\\AlertaTestStepDefinition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T17:33:45.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AlertaController.cs",
+              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\msAlertaMongoDB\\Controllers\\AlertaController.cs",
+              "RelativeDocumentMoniker": "msAlertaMongoDB\\Controllers\\AlertaController.cs",
+              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\msAlertaMongoDB\\Controllers\\AlertaController.cs",
+              "RelativeToolTip": "msAlertaMongoDB\\Controllers\\AlertaController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAADwv0AAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T17:34:33.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlertaMongoDB\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-10-25T02:46:46.535Z"
             }
           ]
         }

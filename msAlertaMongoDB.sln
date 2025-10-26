@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens da Solução", "Itens
 		script.bat = script.bat
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertaTestReqnroll", "AlertaTestReqnroll\AlertaTestReqnroll.csproj", "{5FF192BD-423D-4BDA-A51B-E2DD6A08B26E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{21524468-7FD9-41FD-BEC5-31C6AF8655D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21524468-7FD9-41FD-BEC5-31C6AF8655D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21524468-7FD9-41FD-BEC5-31C6AF8655D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FF192BD-423D-4BDA-A51B-E2DD6A08B26E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF192BD-423D-4BDA-A51B-E2DD6A08B26E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF192BD-423D-4BDA-A51B-E2DD6A08B26E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF192BD-423D-4BDA-A51B-E2DD6A08B26E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
