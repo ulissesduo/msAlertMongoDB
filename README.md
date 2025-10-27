@@ -225,3 +225,70 @@ services:
 volumes:
   mongo_data:
 
+
+
+
+
+🐋 Como Executar Localmente com Docker
+🧾 Pré-requisitos
+
+.NET 8 SDK
+
+Docker Desktop
+
+Git
+
+🚀 Passos
+
+1️⃣ Clonar o repositório:
+
+git clone https://github.com/seuusuario/msAlertaMongoDB.git
+cd msAlertaMongoDB
+
+
+2️⃣ Subir os containers:
+
+docker-compose up --build
+
+
+3️⃣ Acessar a API:
+
+Swagger: http://localhost:5000/swagger
+
+4️⃣ Executar testes:
+
+dotnet test
+
+
+
+
+🧩 Teste de Integração com Reqnroll — AlertaTestReqnroll
+
+O teste AlertaTestReqnroll realiza validações comportamentais (BDD) sobre os fluxos principais da API de Alertas, assegurando que a aplicação responda corretamente aos cenários esperados.
+
+Ele cobre:
+
+✅ Criação de alertas válidos e verificação do retorno HTTP;
+
+⚠️ Tentativa de criação com dados inválidos (ex: campos obrigatórios vazios);
+
+🔍 Consulta de alertas existentes;
+
+🗑️ Exclusão de alertas e verificação de remoção no banco.
+
+Esses testes não são executados em ambiente de nuvem (Azure) — apenas localmente, simulando as interações da API dentro de containers Docker.
+
+▶️ Executando o AlertaTestReqnroll localmente
+
+Subir os containers (API + MongoDB):
+
+docker-compose up --build
+
+
+Executar os testes Reqnroll:
+
+dotnet test msAlertaMongoDBTest
+
+
+Conferir os resultados no terminal.
+O Reqnroll gera saídas detalhadas de cada cenário executado, permitindo validar os comportamentos esperados da API.
